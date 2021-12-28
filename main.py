@@ -40,7 +40,6 @@ def find_jobs():
                 f.write(f"Skill set: {skill_set.strip()}\n")
                 f.write(f"Additional information link: {more_info}\n\n")
                 print(f"File saved: {index}")
-                f.close()
 
 
 if __name__ == '__main__':
